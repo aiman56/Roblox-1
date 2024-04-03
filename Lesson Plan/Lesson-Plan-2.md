@@ -1,6 +1,7 @@
 # Roblox  1 : Lua Scripting Fundamentals
 
 ## Table of Contents
+
 - [Roblox  1 : Lua Scripting Fundamentals](#roblox--1--lua-scripting-fundamentals)
   - [Table of Contents](#table-of-contents)
   - [Creating a Script](#creating-a-script)
@@ -12,9 +13,6 @@
   - [Creating a Function](#creating-a-function)
 
 ## Creating a Script
-
-<details>
-  <summary><a name="creating-a-script"></a>See more</summary>
 
 Scripts are commonly created in ServerScriptService, a special folder made just for holding scripts.
 
@@ -28,12 +26,9 @@ Scripts are commonly created in ServerScriptService, a special folder made just 
 
 3. Right-click ***Script*** and select ***Rename***. Name the script ***PracticeScript***.
 
-</details>
+
 
 ## Testing Output
-
-<details>
-  <summary><i>See more</i></summary>
 
 1. Select the ***View*** menu tab.
 
@@ -57,12 +52,8 @@ The window will appear at the bottom of Roblox Studio.
 
 4. Click Stop to end the playtest. You can now return to the Script tab.
 
-</details>
-
 ## Variables
 
-<details>
-  <summary><i>See more</i></summary>
 
 In Lua, to declare a new variable, type `local`, then type the name for the new variable. A variable that can hold a player name might look like: `local playerName`
 
@@ -79,29 +70,23 @@ To print the variable, use the `print()` function
 local myAnimal = "Tiger"
 print(myAnimal)
 ```
-</details>
 
 ## Object Properties
 
-<details>
-  <summary><i>See more</i></summary>
 
 The Properties window can be used to learn about an object's properties. Use it to take a look at a part's properties.
 
 1.Select a part.
 
-2. In the ***Properties*** Window on the bottom-right, look at the different properties that can be changed, like color, size, material and transparency. You can also change most properties in this window from within a script
+1. In the ***Properties*** Window on the bottom-right, look at the different properties that can be changed, like color, size, material and transparency. You can also change most properties in this window from within a script
 
 <p align="center">
     <img src="..\Assets\part-properties_400.png.webp" alt="drawing25" width="400"/>
 </p>
 
-</details>
 
 ## Changing Part's Property
 
-<details>
-  <summary><i>See more</i></summary>
 
 To make changes to a part, you must be able to describe the part's location. The ***Explorer*** is an excellent tool for referencing locations. In this case, ***PracticePart*** is under ***Workspace***.
 
@@ -116,7 +101,7 @@ Now that you know where the part is, the part's location needs to be translated 
 workspace.PracticePart 
 ```
 
-2. To change ***PracticePart***'s property, type `.Color` to access the ***Color*** property
+1. To change ***PracticePart***'s property, type `.Color` to access the ***Color*** property
 
 ```Lua
 workspace.PracticePart.Color
@@ -134,12 +119,8 @@ workspace.PracticePart.Color = Color3.fromRGB()
     <img src="..\Assets\color-picker_800x140.png.webp" alt="drawing27" width="400"/>
 </p>
 
-</details>
 
 ## Parents and Children Relationship
-
-<details>
-  <summary><i>See more</i></summary>
 
 Instead of running scripts from ***ServerScriptService***, you may want to attach a script to the part. 
 
@@ -171,13 +152,9 @@ With the current script, you can only change the color of a single part named **
 local colorPart = script.Parent
 colorPart.Color = Color3.fromRGB(50, 240, 255)
 ```
-</details>
-
 
 ## Creating a Function
 
-<details>
-  <summary><i>See more</i></summary>
 
 1. Create a new script in ***ServerScriptService***.
   
@@ -209,11 +186,6 @@ printFood()
 ```
 
 5. Run the code as shown in the previous to see the output
-
-
-
-
-</details>
 
 
 
