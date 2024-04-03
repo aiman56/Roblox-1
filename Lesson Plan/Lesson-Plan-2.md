@@ -2,12 +2,14 @@
 
 # Table of Contents
 
-1. [Creating a Script](#creating-a-script)
-2. [Testing Output](#testing-output)
-3. [Variables](#variables)
-4. [Object Properties](#object-properties)
-5. [Changing Part's Property](#changing-parts-property)
-6. [Parents and Children Relationship](#parents-and-children-relationship)
+- [Roblox  1 : Lua Scripting Fundamentals](#roblox--1--lua-scripting-fundamentals)
+- [Table of Contents](#table-of-contents)
+  - [Creating a Script](#creating-a-script)
+  - [Testing Output](#testing-output)
+  - [Variables](#variables)
+  - [Object Properties](#object-properties)
+  - [Changing Part's Property](#changing-parts-property)
+  - [Parents and Children Relationship](#parents-and-children-relationship)
 
 ## Creating a Script
 
@@ -192,29 +194,4 @@ colorPart.Color = Color3.fromRGB(50, 240, 255)
 
 
 
-
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    // Find all anchor links in the table of contents
-    var tocLinks = document.querySelectorAll("#Table-of-Contents a");
-
-    // Add click event listener to each link
-    tocLinks.forEach(function(link) {
-        link.addEventListener("click", function(event) {
-            // Prevent the default behavior of the anchor link
-            event.preventDefault();
-
-            // Get the ID of the section to which the link points
-            var sectionId = link.getAttribute("href").substr(1);
-
-            // Find the corresponding details element
-            var details = document.querySelector("details > summary[name='" + sectionId + "']").parentElement;
-
-            // Toggle the open/closed state of the details element
-            details.open = !details.open;
-        });
-    });
-});
-</script>
 
