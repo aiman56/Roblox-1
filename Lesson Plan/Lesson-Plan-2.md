@@ -1,7 +1,6 @@
 # Roblox  1 : Lua Scripting Fundamentals
 
 ## Table of Contents
-
 - [Roblox  1 : Lua Scripting Fundamentals](#roblox--1--lua-scripting-fundamentals)
   - [Table of Contents](#table-of-contents)
   - [Creating a Script](#creating-a-script)
@@ -185,7 +184,7 @@ end
 printFood()
 ```
 
-5. Run the code as shown in the previous to see the output
+6. Run the code as shown in the previous to see the output
 
 
 
