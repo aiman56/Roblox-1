@@ -1,15 +1,15 @@
 # Roblox  1 : Lua Scripting Fundamentals
 
-# Table of Contents
-
+## Table of Contents
 - [Roblox  1 : Lua Scripting Fundamentals](#roblox--1--lua-scripting-fundamentals)
-- [Table of Contents](#table-of-contents)
+  - [Table of Contents](#table-of-contents)
   - [Creating a Script](#creating-a-script)
   - [Testing Output](#testing-output)
   - [Variables](#variables)
   - [Object Properties](#object-properties)
   - [Changing Part's Property](#changing-parts-property)
   - [Parents and Children Relationship](#parents-and-children-relationship)
+  - [Creating a Function](#creating-a-function)
 
 ## Creating a Script
 
@@ -171,6 +171,48 @@ With the current script, you can only change the color of a single part named **
 local colorPart = script.Parent
 colorPart.Color = Color3.fromRGB(50, 240, 255)
 ```
+</details>
+
+
+## Creating a Function
+
+<details>
+  <summary><i>See more</i></summary>
+
+1. Create a new script in ***ServerScriptService***.
+  
+2. Rename the script ***FunctionsPractice***.
+  
+3. Type local function `printFood()`, then press <kbd>Enter</kbd> on your keyboard. It should autocomplete the function to look like this
+
+```Lua
+local function printFood()
+
+end
+```
+
+4. All of the code for your function has to be typed between the lines local function `printFood()` and `end`. Any code not between those two points won't run when the function does. For example like below 
+
+```Lua
+local function printFood()
+  print("Pizza!")
+end
+```
+
+5. Functions won't run until they are called. To call a function, type the function's name including the `()` at the end.
+
+```Lua
+local function printFood()
+  print("Pizza!")
+end
+printFood()
+```
+
+5. Run the code as shown in the previous to see the output
+
+
+
+
 </details>
 
 
