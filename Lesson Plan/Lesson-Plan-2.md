@@ -1,6 +1,18 @@
 # Roblox  1 : Lua Scripting Fundamentals
 
+# Table of Contents
+
+1. [Creating a Script](#creating-a-script)
+2. [Testing Output](#testing-output)
+3. [Variables](#variables)
+4. [Object Properties](#object-properties)
+5. [Changing Part's Property](#changing-parts-property)
+6. [Parents and Children Relationship](#parents-and-children-relationship)
+
 ## Creating a Script
+
+<details>
+  <summary><a name="creating-a-script"></a>See more</summary>
 
 Scripts are commonly created in ServerScriptService, a special folder made just for holding scripts.
 
@@ -14,7 +26,12 @@ Scripts are commonly created in ServerScriptService, a special folder made just 
 
 3. Right-click ***Script*** and select ***Rename***. Name the script ***PracticeScript***.
 
+</details>
+
 ## Testing Output
+
+<details>
+  <summary><i>See more</i></summary>
 
 1. Select the ***View*** menu tab.
 
@@ -38,7 +55,12 @@ The window will appear at the bottom of Roblox Studio.
 
 4. Click Stop to end the playtest. You can now return to the Script tab.
 
+</details>
+
 ## Variables
+
+<details>
+  <summary><i>See more</i></summary>
 
 In Lua, to declare a new variable, type `local`, then type the name for the new variable. A variable that can hold a player name might look like: `local playerName`
 
@@ -55,9 +77,12 @@ To print the variable, use the `print()` function
 local myAnimal = "Tiger"
 print(myAnimal)
 ```
-
+</details>
 
 ## Object Properties
+
+<details>
+  <summary><i>See more</i></summary>
 
 The Properties window can be used to learn about an object's properties. Use it to take a look at a part's properties.
 
@@ -69,7 +94,12 @@ The Properties window can be used to learn about an object's properties. Use it 
     <img src="..\Assets\part-properties_400.png.webp" alt="drawing25" width="400"/>
 </p>
 
+</details>
+
 ## Changing Part's Property
+
+<details>
+  <summary><i>See more</i></summary>
 
 To make changes to a part, you must be able to describe the part's location. The ***Explorer*** is an excellent tool for referencing locations. In this case, ***PracticePart*** is under ***Workspace***.
 
@@ -102,7 +132,12 @@ workspace.PracticePart.Color = Color3.fromRGB()
     <img src="..\Assets\color-picker_800x140.png.webp" alt="drawing27" width="400"/>
 </p>
 
+</details>
+
 ## Parents and Children Relationship
+
+<details>
+  <summary><i>See more</i></summary>
 
 Instead of running scripts from ***ServerScriptService***, you may want to attach a script to the part. 
 
@@ -129,9 +164,57 @@ A parent is anything with objects, like scripts or parts, attached below it. Any
 
 With the current script, you can only change the color of a single part named ***ColorPart***. To change any part's color, you can design the code to work on the script's parent object, whatever it happens to be named. The code script.Parent, will go up the hierarchy and find the object the script is attached to. To make use of this relationship, you can use change the previous code to the example below.
 
+
 ```Lua
 local colorPart = script.Parent
 colorPart.Color = Color3.fromRGB(50, 240, 255)
 ```
+</details>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Find all anchor links in the table of contents
+    var tocLinks = document.querySelectorAll("#Table-of-Contents a");
+
+    // Add click event listener to each link
+    tocLinks.forEach(function(link) {
+        link.addEventListener("click", function(event) {
+            // Prevent the default behavior of the anchor link
+            event.preventDefault();
+
+            // Get the ID of the section to which the link points
+            var sectionId = link.getAttribute("href").substr(1);
+
+            // Find the corresponding details element
+            var details = document.querySelector("details > summary[name='" + sectionId + "']").parentElement;
+
+            // Toggle the open/closed state of the details element
+            details.open = !details.open;
+        });
+    });
+});
+</script>
 
