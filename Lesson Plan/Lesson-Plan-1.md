@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="styles.css" />
+
 # Roblox  1 : Intro to Roblox
 
 
@@ -32,15 +34,15 @@ The Baseplate template consists of a spawn location where player characters appe
 
 ## Moving the Camera
 
-|Key| Action |
-|--|--|
-| <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>| Moves the camera forward, left, back, or right |
-|<kbd>Q</kbd> <kbd>E</kbd>|Moves the camera up or down|
-|<kbd>Shift</kbd>|Increase the camera movement speed|
-|<kbd>F</kbd>|Focuses the camera on the specific part|
-|<kbd>Right Mouse Button</kbd>|When pressed, dragging the mouse moves the camera view around|
-|<kbd>Mouse Scroll Wheel</kbd>| Zooms the camera in or out|
-|<kbd>Middle Mouse Butto</kbd>|When pressed, dragging the mouse pans the camera|
+| Key                                                 | Action                                                        |
+| --------------------------------------------------- | ------------------------------------------------------------- |
+| <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> | Moves the camera forward, left, back, or right                |
+| <kbd>Q</kbd> <kbd>E</kbd>                           | Moves the camera up or down                                   |
+| <kbd>Shift</kbd>                                    | Increase the camera movement speed                            |
+| <kbd>F</kbd>                                        | Focuses the camera on the specific part                       |
+| <kbd>Right Mouse Button</kbd>                       | When pressed, dragging the mouse moves the camera view around |
+| <kbd>Mouse Scroll Wheel</kbd>                       | Zooms the camera in or out                                    |
+| <kbd>Middle Mouse Butto</kbd>                       | When pressed, dragging the mouse pans the camera              |
 
 ## Inserting Parts
 
@@ -199,12 +201,12 @@ To playtest your experience, click the Play button in the menu bar.
 While playtesting, you can use the same controls as a default Roblox experience:
 <div align="center">
 
-|Key| Action |
-|--|--|
-| <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>| Moves the chararter forward, left, back, or right |
-| <kbd>Space</kbd> | Jump |
-| <kbd>Right Mouse Button</kbd> | When pressed, dragging the mouse moves the camera view around |
-| <kbd>Mouse Scroll</kbd> | Change camera zoom |
+| Key                                                 | Action                                                        |
+| --------------------------------------------------- | ------------------------------------------------------------- |
+| <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> | Moves the chararter forward, left, back, or right             |
+| <kbd>Space</kbd>                                    | Jump                                                          |
+| <kbd>Right Mouse Button</kbd>                       | When pressed, dragging the mouse moves the camera view around |
+| <kbd>Mouse Scroll</kbd>                             | Change camera zoom                                            |
 
 </div>
 

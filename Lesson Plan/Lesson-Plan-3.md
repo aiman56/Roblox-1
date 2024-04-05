@@ -1,3 +1,6 @@
+<link rel="stylesheet" type="text/css" href="styles.css" />
+
+
 # Roblox  1 : Lua Scripting Fundamentals (Continuation)
 
 ## Table of Contents
@@ -89,5 +92,38 @@ trap.Touched:Connect(onTouch)
 ```
 
 11. Test again and see what happens when the part is touched. Your avatar should end up missing feet or arms.
+
+## If Statements
+
+Conditions can come in various forms but are often simple statements like math equations. For example, if 1+1 equals 2, then run some code. Like ordinary math equations, conditional can use operators such as plus (+) or less than (<) to evaluate statements.
+
+1. Set up the empty conditional. In the script, type `if then`, and press <kbr>Enter</kbr> to autocomplete the conditional. The keyword `then` will be underlined because the code is incomplete.
+
+```Lua
+if then
+  -- empty code
+end
+```
+
+2. After the keyword `if`, type a true statement such as `3 + 3 == 6`.
+
+```Lua
+if 3 + 3 == 6 then
+  -- empty code
+end
+```
+
+3. Within the conditional, type `print("Hello World")`. 
+```Lua
+if 3 + 3 == 6 then
+  print("Hello World")
+end
+```
+
+4. Test your code. If three plus three is equal to six, the code will output `Hello World`
+
+
+
+
 
 

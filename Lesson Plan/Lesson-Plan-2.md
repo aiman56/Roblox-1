@@ -1,5 +1,7 @@
 # Roblox  1 : Lua Scripting Fundamentals
 
+<link rel="stylesheet" type="text/css" href="styles.css" />
+
 ## Table of Contents
 - [Roblox  1 : Lua Scripting Fundamentals](#roblox--1--lua-scripting-fundamentals)
   - [Table of Contents](#table-of-contents)
