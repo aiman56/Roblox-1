@@ -1,17 +1,15 @@
-# Roblox  1 : Lua Scripting Fundamentals
+# Roblox  1 : Lua Scripting Fundamentals <!-- omit from toc -->
 
 <link rel="stylesheet" type="text/css" href="styles.css" />
 
-## Table of Contents
-- [Roblox  1 : Lua Scripting Fundamentals](#roblox--1--lua-scripting-fundamentals)
-  - [Table of Contents](#table-of-contents)
-  - [Creating a Script](#creating-a-script)
-  - [Testing Output](#testing-output)
-  - [Variables](#variables)
-  - [Object Properties](#object-properties)
-  - [Changing Part's Property](#changing-parts-property)
-  - [Parents and Children Relationship](#parents-and-children-relationship)
-  - [Creating a Function](#creating-a-function)
+## Table of Contents <!-- omit from toc -->
+- [Creating a Script](#creating-a-script)
+- [Testing Output](#testing-output)
+- [Variables](#variables)
+- [Object Properties](#object-properties)
+- [Changing Part's Property](#changing-parts-property)
+- [Parents and Children Relationship](#parents-and-children-relationship)
+- [Creating a Function](#creating-a-function)
 
 ## Creating a Script
 

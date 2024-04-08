@@ -1,7 +1,8 @@
 <link rel="stylesheet" type="text/css" href="styles.css" />
 
+# Roblox  1 : Creating Your Own Model  <!-- omit from toc -->
 
-# Roblox  1 : Creating Your Own Model <!-- omit from toc -->
+<hr>    
 
 ## Table of Contents <!-- omit from toc -->
 - [Model Design](#model-design)
@@ -13,6 +14,7 @@
 Now, we're onto the next step: creating a model that matches our theme. With our theme in mind, we're going to design an object that fits perfectly into our game world
 
 In ***Roblox***, a character is called a ***Model***. ***Model*** doesn't neccessarily means it is human or a living things. It can be inanimate things like a rock or a box. ***Model*** is composed of multiple parts that have been grouped together.
+
 
 1. To create our own model, first we need to add mutliple parts to our game. To do this, go the ***View*** tab at the top of your screen and click Explorer.
 

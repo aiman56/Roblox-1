@@ -1,13 +1,10 @@
+
 h1, h2, h3, h4, h5, h6 {
-    /* Font style for titles (headings) */
     font-family: "Montserrat";
-    font-weight: bold; /* Optional: Adjust font weight */
-    /* Other styling properties as desired */
-}
-
-
-body {
-    font-family: "Montserrat";
+    font-weight: bold;
+    background: linear-gradient(to right, #00adec, #c7d92c);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 kbd {
@@ -17,3 +14,69 @@ kbd {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     font-family: "Montserrat";
   }
+
+
+body {
+    font-family: "Montserrat";
+}
+
+hr {
+    border: none;
+    height: 3px; /* Adjust the height of the line */
+    background: linear-gradient(to right, #c7d92c, #00adec); /* Define your gradient colors */
+    margin: 2px 0; /* Adjust margin as needed */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1)
+  }
+
+
+  .boxed {
+    background: #F2F2F2;
+    color: black;
+    border: 3px solid #535353;
+    margin: 0px auto;
+    width: 456px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+
+
+  
+  .table_component {
+    overflow: auto;
+    width: 100%;
+}
+
+.table_component table {
+    border: 1px solid #dededf;
+    height: 100%;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    text-align: left;
+}
+
+.table_component caption {
+    caption-side: top;
+    text-align: left;
+}
+
+.table_component th {
+    border: 1px solid #dededf;
+    background-color: #eceff1;
+    color: #000000;
+    padding: 5px;
+}
+
+.table_component td {
+    border: 1px solid #dededf;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5px;
+}
+
+
+
+
+
