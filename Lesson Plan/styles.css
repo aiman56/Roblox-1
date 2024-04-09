@@ -76,6 +76,12 @@ hr {
     padding: 5px;
 }
 
+.inline-code {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ccc;
+    padding: 2px;
+}
+
 
 
 
