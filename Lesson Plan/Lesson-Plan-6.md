@@ -7,6 +7,8 @@
 
 ## Table of Contents <!-- omit from toc -->
 - [Environment in Roblox](#environment-in-roblox)
+  - [Lighting](#lighting)
+  - [Atmosphere](#atmosphere)
 
 
 ## Environment in Roblox
@@ -37,7 +39,7 @@ Let's start to add more enviromental details to our maps to make it feels and lo
 local Lighting = game:GetService("Lighting")
 ```
 
-5. To change the time in the game, we need to create a variable of which we can use to set the time in the game.In Roblox, time is typically measured in minutes after midnight, where midnight is represented as 0 minutes. For example, if dusk is at 6:00 PM, which is 18 hours after midnight, you would calculate it as *18 hours * 60 minutes/hour = 1080 minutes*. To make it easy for you, you can just refer the table below to determine the value of the variable that need to be created.
+5. To change the time in the game, we need to create a variable of which we can use to set the time in the game. In Roblox, time is typically measured in minutes after midnight, where midnight is represented as 0 minutes. For example, if dusk is at 6:00 PM, which is 18 hours after midnight, you would calculate it as *18 hours * 60 minutes/hour = 1080 minutes*. To make it easy for you, you can just refer the table below to determine the value of the variable that need to be created.
 
 <div class="table_component" role="region" tabindex="0" align="center">
 <table>
@@ -86,7 +88,7 @@ local Lighting = game:GetService("Lighting")
 </table>
 </div>
 
-6. Let set our game to night to see how the light will affect our game. What can you observe from the game surrounding? It the lighting has changed? How a about the Sun's position?
+1. Let set our game to night to see how the light will affect our game. What can you observe from the game surrounding? Has the lighting changed? How about the Sun's position?
    
 ```Lua
 local Lighting = game:GetService("Lighting")
@@ -134,10 +136,12 @@ To change how the atmosphere will affect the ``Lighting``, we can do it in two p
     <img src="..\Assets\drawing63.png" alt="drawing63"  width="200" style="border: 2px solid  gray;"/>
 </p>
 
+<div class="page"/>
+
 2. In the ***Properties*** windows, you can see a lot of options that can be changed. Try to play around the options particularly the ```Density```, ```Haze```, ```Glare``` and ```Color```. Try to see how it will affect the lighting and surrounding
 
 <p align="center">
-    <img src="..\Assets\drawing63.png" alt="drawing63"  width="200" style="border: 2px solid  gray;"/>
+    <img src="..\Assets\drawing64.png" alt="drawing64"  width="200" style="border: 2px solid  gray;"/>
 </p>
 
 3. Now lets try to edit the ```Atmosphere``` in the ***Script***. Add new ***Script*** in the workspace.

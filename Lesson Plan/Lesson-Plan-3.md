@@ -1,10 +1,18 @@
 <link rel="stylesheet" type="text/css" href="styles.css" />
 
 
-# Roblox  1 : Lua Scripting Fundamentals (Continuation)
+# Roblox  1 : Lua Scripting Fundamentals (Continuation) <!-- omit from toc -->
 
-## Table of Contents
-  - [Parameters and Event](#parameters-and-event)
+<hr>
+
+## Table of Contents <!-- omit from toc -->
+- [Parameters and Event](#parameters-and-event)
+  - [Create new parts](#create-new-parts)
+  - [Set up the script](#set-up-the-script)
+  - [Add Event Listener](#add-event-listener)
+- [If Statements](#if-statements)
+
+  
 
 ## Parameters and Event
 
@@ -79,6 +87,8 @@ trap.Touched:Connect(onTouch)
 
 12. Now that the function is correctly set up, use it to destroy whatever touches the part. Inside the function, after the string, type `objectTouched:Destroy()`
 
+<div class="page"/>
+
 ```Lua
 local trap = script.Parent
 
@@ -91,7 +101,7 @@ end
 trap.Touched:Connect(onTouch)
 ```
 
-11. Test again and see what happens when the part is touched. Your avatar should end up missing feet or arms.
+13.  Test again and see what happens when the part is touched. Your avatar should end up missing feet or arms.
 
 ## If Statements
 

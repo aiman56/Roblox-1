@@ -22,7 +22,7 @@ In ***Roblox***, a character is called a ***Model***. ***Model*** doesn't necces
     <img src="..\Assets\drawing51.png" alt="drawing51"  width="400" style="border: 2px solid  gray;"/>
 </p>
 
-1.  The  ***Explorer***  window will appear at the right side of your screen. Click the ***+*** button beside the ***Workspace*** and type ***Part*** into the search bar and choose it. Repeat this step 5 times until you have 5 parts in the ***Workspace***.
+2.  The  ***Explorer***  window will appear at the right side of your screen. Click the ***+*** button beside the ***Workspace*** and type ***Part*** into the search bar and choose it. Repeat this step 5 times until you have 5 parts in the ***Workspace***.
 
 
 <p align="center">
@@ -33,11 +33,13 @@ In ***Roblox***, a character is called a ***Model***. ***Model*** doesn't necces
     <img src="..\Assets\drawing53.png" alt="drawing53"  width="400" style="border: 2px solid  gray;"/>
 </p>
 
-1. To combine all of the ***Parts***, you need to highlight all of the ***Parts*** that you have just created. To do this, click the top most ***Parts*** in the list and hold <kbd>Shift</kbd> while simultaneously click the <kbd>&darr;</kbd> until the last ***Parts*** in the list 
+3. To combine all of the ***Parts***, you need to highlight all of the ***Parts*** that you have just created. To do this, click the top most ***Parts*** in the list and hold <kbd>Shift</kbd> while simultaneously click the <kbd>&darr;</kbd> until the last ***Parts*** in the list 
 
 <p align="center">
     <img src="..\Assets\drawing54.png" alt="drawing54"  width="400" style="border: 2px solid  gray;"/>
 </p>
+
+
 
 4. <kbd>Right Mouse Click</kbd> on any of the highlighted ***Parts*** and choose ***Group as a Model***. This will combine all of the ***Parts*** into one ***Model***.
     
@@ -45,12 +47,15 @@ In ***Roblox***, a character is called a ***Model***. ***Model*** doesn't necces
     <img src="..\Assets\drawing55.png" alt="drawing55"  width="400" style="border: 2px solid  gray;"/>
 </p>
 
+<div class="page"/>
+
+
 5. Now you can see that all of the ***Parts*** is under the ***Models***.
 
 <p align="center">
     <img src="..\Assets\drawing56.png" alt="drawing56"  width="400" style="border: 2px solid  gray;"/>
 </p>
-<div class="page"/>
+
 
 
 
@@ -63,6 +68,8 @@ We've just crafted our own model, but guess what? Roblox also offers a bunch of 
 <p align="center">
     <img src="..\Assets\drawing57.png" alt="drawing57"  width="400" style="border: 2px solid  gray;"/>
 </p>
+
+<div class="page"/>
 
 2. You'll find the ***Toolbox*** explorer on the left side of your screen. Make sure the filter is set to search for ***model***. This will help you quickly locate the models you need for your project.
 

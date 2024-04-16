@@ -7,7 +7,8 @@
 
 ## Table of Contents <!-- omit from toc -->
 - [Players](#players)
-  - [Players' Tools](#players-tools)
+	- [Players' Tools](#players-tools)
+	- [Leaderboard](#leaderboard)
 
 ## Players
 
@@ -28,6 +29,8 @@ Within Roblox experiences, ```Tools``` offer users interactive items such as swo
 <p align="center">
     <img src="..\Assets\drawing71.png" alt="drawing71"  width="300" style="border: 2px solid  gray;"/>
 </p>
+
+<div class="page"/>
 
 4. Open the ***Properties*** window of the ***Handle*** and paste these values in ***MeshID*** and ***TextureID*** in the ***Appreance*** section.
 
@@ -84,7 +87,7 @@ Players.PlayerAdded:Connect(leaderboardSetup)
 
 > ⚠️ It is important to assign the value of ```leaderstats.name``` as ```"leaderstats"```, with all lowercase letters, with that spelling or else it would not work.
 
-3. Within the leaderboardSetup function, add code to create leaderboard stats:
+3. Within the ``leaderboardSetup`` function, add code to create leaderboard stats:
 
 ```Lua
 local Players = game:GetService("Players")

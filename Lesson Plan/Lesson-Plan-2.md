@@ -2,6 +2,8 @@
 
 <link rel="stylesheet" type="text/css" href="styles.css" />
 
+<hr>    
+
 ## Table of Contents <!-- omit from toc -->
 - [Creating a Script](#creating-a-script)
 - [Testing Output](#testing-output)
@@ -25,7 +27,7 @@ Scripts are commonly created in ServerScriptService, a special folder made just 
 
 3. Right-click ***Script*** and select ***Rename***. Name the script ***PracticeScript***.
 
-
+<div class="page"/>
 
 ## Testing Output
 
@@ -118,6 +120,7 @@ workspace.PracticePart.Color = Color3.fromRGB()
     <img src="..\Assets\color-picker_800x140.png.webp" alt="drawing27" width="400"/>
 </p>
 
+<div class="page"/>
 
 ## Parents and Children Relationship
 
@@ -140,12 +143,15 @@ colorPart.Color = Color3.fromRGB(50, 240, 255)
 
 A parent is anything with objects, like scripts or parts, attached below it. Anything under the parent is its children. In the example below, ***ColorPart*** is the parent, and ***ColorChanger*** is the child.
 
+
+
 <p align="center">
     <img src="..\Assets\color-changer_400x216.png.webp" alt="drawing28" width="400"/>
 </p>
 
 With the current script, you can only change the color of a single part named ***ColorPart***. To change any part's color, you can design the code to work on the script's parent object, whatever it happens to be named. The code script.Parent, will go up the hierarchy and find the object the script is attached to. To make use of this relationship, you can use change the previous code to the example below.
 
+<div class="page"/>
 
 ```Lua
 local colorPart = script.Parent

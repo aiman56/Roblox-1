@@ -1,6 +1,21 @@
 <link rel="stylesheet" type="text/css" href="styles.css" />
 
-# Roblox  1 : Intro to Roblox
+# Roblox  1 : Intro to Roblox <!-- omit from toc -->
+
+<hr>
+
+## Table of Contents <!-- omit from toc -->
+- [Creating New Experience](#creating-new-experience)
+- [Moving the Camera](#moving-the-camera)
+- [Inserting Parts](#inserting-parts)
+- [Selecting Parts](#selecting-parts)
+- [Moving Parts](#moving-parts)
+- [Scaling Parts](#scaling-parts)
+- [Rotating Parts](#rotating-parts)
+- [Customizing Colors and Materials](#customizing-colors-and-materials)
+- [Anchoring Parts](#anchoring-parts)
+- [Deleting the Baseplate](#deleting-the-baseplate)
+- [Playtesting the Course](#playtesting-the-course)
 
 
 This tutorial explains the basics of  [Roblox Studio](https://create.roblox.com/docs/studio/setting-up-roblox-studio)  by building, playtesting, and publishing a simple platformer experience. Follow each section and learn how to:

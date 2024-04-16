@@ -3,6 +3,8 @@
 
 # Roblox  1 : Intro to Game Design <!-- omit from toc -->
 
+<hr>
+
 ## Table of Contents <!-- omit from toc -->
 - [Plannning the Project](#plannning-the-project)
   - [Game Design Documents](#game-design-documents)
@@ -66,7 +68,7 @@ The tool we'll utilize for this phase is known as the ***Terrain Editor***. This
     <img src="..\Assets\drawing45.png" alt="drawing45"  width="600" style="border: 2px solid  gray;"/>
 </p>
 
-7. Go back to the ***Terrain Editor*** window and scroll down until you see the  ***Generate*** button. Click it to genarate the terrain.
+7. Go back to the ***Terrain Editor*** window and scroll down until you see the  ***Generate*** button. Click it to generate the terrain.
 
 <p align="center">
     <img src="..\Assets\drawing46.png" alt="drawing46"  width="200" style="border: 2px solid  gray;"/>
@@ -87,13 +89,15 @@ The tool we'll utilize for this phase is known as the ***Terrain Editor***. This
     <img src="..\Assets\drawing48.png" alt="drawing48"  width="200" style="border: 2px solid  gray;"/>
 </p>
 
+<div class="page"/>
+
 2. Click the ***Draw*** options under the ***Edit*** tab. This tools is too draw more terrain on our base map.
 
 <p align="center">
     <img src="..\Assets\drawing49.png" alt="drawing49"  width="200" style="border: 2px solid  gray;"/>
 </p>
 
-3. Scroll down to the ***Brush Settings** section. Choose the shape of the terrain addion that you want. As you can see, there are three options, sphere,cube and cylinder. In the example picture, cylinder is choosen but you are free to choose any shape that you like.
+3. Scroll down to the ***Brush Settings*** section. Choose the shape of the terrain addition that you want. As you can see, there are three options, sphere,cube and cylinder. In the example picture, cylinder is choosen but you are free to choose any shape that you like.
 
 <p align="center">
     <img src="..\Assets\drawing410.png" alt="drawing410"  width="200" style="border: 2px solid  gray;"/>
@@ -104,6 +108,9 @@ The tool we'll utilize for this phase is known as the ***Terrain Editor***. This
 <p align="center">
     <img src="..\Assets\drawing411.png" alt="drawing411"  width="200" style="border: 2px solid  gray;"/>
 </p>
+
+
+<br></br>
 
 5. To use the ***Draw*** tools, go to the terrain and click with <kbd>Left Mouse Click</kbd> and drag it. When you are doing it, you can see that new terrain are being formed. Don't worry if you are adding terrain where you don't want to. You can use keyboard shortcut <kbd>Ctrl</kbd> + <kbd>Z</kbd> to undo the progress. As you can see now we have successfully added new ***Grass*** terrain on top of the base map.
 

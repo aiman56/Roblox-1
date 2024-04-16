@@ -7,8 +7,8 @@
 
 ## Table of Contents <!-- omit from toc -->
 - [Inputs](#inputs)
-  - [Keyboard Input](#keyboard-input)
-  - [Mouse Input](#mouse-input)
+	- [Keyboard Input](#keyboard-input)
+	- [Mouse Input](#mouse-input)
 
 
 ## Inputs
@@ -17,13 +17,13 @@ In Roblox, input means how players interact with the game using things like keyb
 
 ### Keyboard Input
 
-Keyboard input in Roblox refers to how players control their characters and interact with the game environment using keys on their keyboards.Roblox provides developers with tools and functions to detect keyboard input and respond accordingly, allowing for the creation of dynamic and responsive gameplay mechanics. 
+Keyboard input in Roblox refers to how players control their characters and interact with the game environment using keys on their keyboards. Roblox provides developers with tools and functions to detect keyboard input and respond accordingly, allowing for the creation of dynamic and responsive gameplay mechanics. 
 
 1. Create a new ***LocalScript*** inside ***StarterPlayer -> StarterPlayerScripts*** in the ***Explorer*** window.
 
-> ⚠️ You must choose ***LocalScript*** instead of usual the ***Script***.
+> ⚠️ You must choose ***LocalScript*** instead of the usual ***Script***.
 
-2. We need to get references to the ***Players*** service to access the local player and the ***UserInputService*** to detect keyboard input. Additionally, we'll want to wait for the player's character to be added to the game before proceeding.
+1. We need to get references to the ***Players*** service to access the local player and the ***UserInputService*** to detect keyboard input. Additionally, we'll want to wait for the player's character to be added to the game before proceeding.
 
 ```Lua
 local Players = game:GetService("Players")
@@ -32,6 +32,9 @@ local UIS = game:GetService("UserInputService")
 local player = Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 ```
+
+<div class="page"/>
+
 3. Use the **I*nputBegan*** event of the ***UserInputService*** to detect when a key is pressed. Inside this event, we'll check if the <kbd>Shift</kbd> key is pressed.
 
 ```Lua

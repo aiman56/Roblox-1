@@ -7,6 +7,8 @@
 
 ## Table of Contents <!-- omit from toc -->
 - [Sounds](#sounds)
+	- [Background Sound](#background-sound)
+	- [Proximity Sounds](#proximity-sounds)
 
 ## Sounds
 
@@ -35,7 +37,7 @@ We can use a ready made ***Sounds*** similar to how we did it in our past lesson
     <img src="..\Assets\drawing94.png" alt="drawing94"  width="300" style="border: 2px solid  gray;"/>
 </p>
 
-## Background Sound
+### Background Sound
 
 Background music serves as a powerful tool to enhance the atmosphere and immersion of a game environment. By incorporating carefully selected audio tracks, developers can set the tone, evoke emotions, and create memorable experiences for players.
 
@@ -52,7 +54,8 @@ Background music serves as a powerful tool to enhance the atmosphere and immersi
 
 2. Navigate to ***StarterPack -> StarterPlayerScripts***  in the ***Explorer*** window and add ***LocalScript***.
 
-3. Inside the ***LocalScript***, we can add the code to play the background sound when we enter the game. Remember to repalce the ```SoundId``` to your asset's respective assedID that you have copied.
+
+3. Inside the ***LocalScript***, we can add the code to play the background sound when we enter the game. Remember to replace the ```SoundId``` to your asset's respective assedID that you have copied.
 
 ```Lua
 local backgroundMusic = Instance.new("Sound")
@@ -65,13 +68,15 @@ backgroundMusic.Parent = game.Workspace -- Parent the sound to Workspace to ensu
 backgroundMusic:Play()
 ```
 
-## Proximity Sounds
+### Proximity Sounds
 
 Proximity sounds in Roblox games are like invisible storytellers . They're the sounds you hear when you get close to certain things in the game. For example, when you near a waterfall, you might hear the rush of water getting louder. Or when you approach a spooky cave, you might hear eerie echoes. 
 
 1. Navigate to any ***Parts*** in the ***Workspace*** and a ***Script***.
 
 2. Get the ``assetID`` of the sounds that you want to add to the ***Part***.
+
+<div class="page"/>
 
 3. Define the script and paste the ``assetID`` of the sounds that you have chosen.
 
@@ -83,7 +88,7 @@ sound.SoundId = "rbxassetid://5476307813" -- Replace YOUR_SOUND_ID_HERE with the
 sound.Parent = part
 ```
 
-4. Establish the distance of sounds that you want to play and also create a function to chech if a ***Player*** is nearby.
+4. Establish the distance of sounds that you want to play and also create a function to check if a ***Player*** is nearby.
 
 ```Lua
 -- Define the Part and the Sound
